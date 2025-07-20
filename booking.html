@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Page</title>
+</head>
+<body>
+
+  <h1>Book Your Trip</h1>
+
+  <form action="#" method="post">
+
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <!-- Destination Dropdown -->
+    <label for="destination">Destination:</label><br>
+    <select id="destination" name="destination" required>
+      <option value="">-- Select Destination --</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Tanzania">Tanzania</option>
+      <option value="South Africa">South Africa</option>
+      <option value="Morocco">Morocco</option>
+    </select><br><br>
+
+    <!-- Number of Travelers -->
+    <label for="travelers">Number of Travelers:</label><br>
+    <input type="number" id="travelers" name="travelers" min="1" required><br><br>
+
+    <!-- Travel Dates -->
+    <label for="startdate">Travel Start Date:</label><br>
+    <input type="date" id="startdate" name="startdate" required><br><br>
+
+    <label for="enddate">Travel End Date:</label><br>
+    <input type="date" id="enddate" name="enddate" required><br><br>
+
+    <!-- Email and Phone -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <!-- Travel Type -->
+    <label>Travel Type:</label><br>
+    <input type="radio" id="adventure" name="traveltype" value="Adventure" required>
+    <label for="adventure">Adventure</label><br>
+
+    <input type="radio" id="luxury" name="traveltype" value="Luxury">
+    <label for="luxury">Luxury</label><br>
+
+    <input type="radio" id="budget" name="traveltype" value="Budget">
+    <label for="budget">Budget</label><br><br>
+
+    <!-- Additional Message -->
+    <label for="message">Additional Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Any special requests?"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Booking</button>
+
+  </form>
+
+</body>
+</html>

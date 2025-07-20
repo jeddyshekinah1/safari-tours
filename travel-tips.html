@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Tips</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #0b5f78;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tip-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tip-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .tip-content {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .tip-content h3 {
+      margin-top: 0;
+      color: #0b5f78;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 15px;
+      background: #0b5f78;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0b5f78;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Travel Tips</h1>
+    <p>Helpful advice and articles to prepare you for your next adventure</p>
+  </header>
+
+  <main class="tips-grid">
+
+    <!-- Tip 1 -->
+    <div class="tip-card">
+      <img src="https://via.placeholder.com/400x200" alt="Packing">
+      <div class="tip-content">
+        <h3>What to Pack for Africa</h3>
+        <p>Discover the essential items you should bring for a safe, comfortable, and enjoyable journey through the continent.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Tip 2 -->
+    <div class="tip-card">
+      <img src="https://via.placeholder.com/400x200" alt="Visa">
+      <div class="tip-content">
+        <h3>How to Get Travel Visas</h3>
+        <p>Learn the process for obtaining travel visas for African destinations and avoid common delays or issues.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Tip 3 -->
+    <div class="tip-card">
+      <img src="https://via.placeholder.com/400x200" alt="Health">
+      <div class="tip-content">
+        <h3>Health Tips for Travelers</h3>
+        <p>Stay healthy on your trip with these expert tips, including vaccinations, hydration, and food safety advice.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Tip 4 -->
+    <div class="tip-card">
+      <img src="https://via.placeholder.com/400x200" alt="Budget">
+      <div class="tip-content">
+        <h3>Traveling on a Budget</h3>
+        <p>Maximize your experience while keeping costs low. Perfect for students, families, and backpackers.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Wanderlust Travels. All rights reserved.
+  </footer>
+
+</body>
+</html>
