@@ -5,20 +5,58 @@
   <title>Destinations</title>
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
       font-family: Arial, sans-serif;
     }
 
     body {
-      background: #f7f9fc;
+      line-height: 1.6;
+      color: #333;
+      background-repeat: repeat;
+      background-image: url(Relax-at-Benguerra-Island.jpg);
+    }
+
+    header {
+      background-color: #0a3d62;
       padding: 20px;
+    }
+
+    header, section {
+      padding: 20px;
+    }
+
+    nav {
+  background-color: #004466;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #333;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+  color: #ffcc00;
     }
 
     h1 {
       text-align: center;
       margin-bottom: 30px;
+      color: #fff;
     }
 
     /* Filters */
@@ -101,6 +139,20 @@
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+   <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <h1>Popular Destinations</h1>
 
   <!-- Filter Section -->
@@ -123,7 +175,7 @@
   <!-- Destination Cards -->
   <div class="destinations">
     <div class="card">
-      <img src="https://via.placeholder.com/300x180" alt="Destination Image">
+      <img src="masai-mara-saruni-mara-590x390.jpg" alt="Destination Image">
       <div class="card-content">
         <h3>Maasai Mara</h3>
         <div class="country">Kenya</div>
@@ -133,7 +185,7 @@
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x180" alt="Destination Image">
+      <img src="paris-night-photo-tour-010.jpg" alt="Destination Image">
       <div class="card-content">
         <h3>Paris</h3>
         <div class="country">France</div>
@@ -143,7 +195,7 @@
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x180" alt="Destination Image">
+      <img src="983f13d4-cb01-42ec-a0c5-5a5138aad2e9.webp" alt="Destination Image">
       <div class="card-content">
         <h3>Dubai</h3>
         <div class="country">UAE</div>

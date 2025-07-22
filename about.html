@@ -9,15 +9,46 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #f5f5f5;
-      color: #333;
+      background-image: url(Relax-at-Benguerra-Island.jpg);
+      color: white;
+    }
+
+    header {
+      background-color: #0a3d62;
+      padding: 20px;
     }
 
     header, section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
+      padding: 20px;
     }
+
+    nav {
+  background-color: #004466;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #333;
+    
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+  color: #ffcc00;
+    }
+
 
     h1, h2 {
       color: #0b5f78;
@@ -27,7 +58,7 @@
       padding-left: 20px;
     }
 
-    /* Team Section */
+    
     .team-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -36,7 +67,7 @@
     }
 
     .team-card {
-      background: white;
+      background: transparent;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -49,15 +80,16 @@
       object-fit: cover;
       border-radius: 50%;
       margin-bottom: 10px;
+      background: #fff;
     }
 
-    /* Timeline */
+    
     .timeline ul {
       list-style-type: "🗓 ";
       padding-left: 30px;
     }
 
-    /* Awards / Features */
+    
     .badges {
       display: flex;
       flex-wrap: wrap;
@@ -66,7 +98,7 @@
     }
 
     .badge {
-      background: white;
+      background: transparent;
       border: 1px solid #ccc;
       border-radius: 8px;
       padding: 15px 20px;
@@ -84,12 +116,24 @@
 </head>
 <body>
 
-  <header>
+  
+   <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="travel-tips.html">Travel Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  <p style="margin-left: auto;">
     <h1>About Us</h1>
     <p>Wanderlust Travels is your trusted partner in creating memorable journeys across Africa and beyond.</p>
-  </header>
+  </p>
 
-  <!-- Mission, Vision, Values -->
+  
   <section>
     <h2>Our Mission</h2>
     <p>To provide personalized and enriching travel experiences that create lasting memories.</p>
@@ -106,34 +150,34 @@
     </ul>
   </section>
 
-  <!-- Team -->
+  
   <section>
     <h2>Meet Our Team</h2>
     <div class="team-container">
       <div class="team-card">
-        <img src="https://via.placeholder.com/100" alt="Jane">
+        <img src="beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg" alt="Jane">
         <h3>Jane Mwangi</h3>
         <p>Founder & CEO</p>
       </div>
       <div class="team-card">
-        <img src="https://via.placeholder.com/100" alt="Samuel">
+        <img src="stylish-spectacles-guy-3d-avatar-character-illustrations-png.webp" alt="Samuel">
         <h3>Samuel Kipkoech</h3>
         <p>Head of Operations</p>
       </div>
       <div class="team-card">
-        <img src="https://via.placeholder.com/100" alt="Faith">
+        <img src="black-woman-smiling-portrait-vector-600nw-2281497689.webp" alt="Faith">
         <h3>Faith Mutheu</h3>
         <p>Lead Travel Consultant</p>
       </div>
       <div class="team-card">
-        <img src="https://via.placeholder.com/100" alt="Kevin">
+        <img src="modern-male-avatar-with-black-hair-and-hoodie-illustration-free-png.webp" alt="Kevin">
         <h3>Kevin Otieno</h3>
         <p>Marketing Director</p>
       </div>
     </div>
   </section>
 
-  <!-- Timeline -->
+  
   <section class="timeline">
     <h2>Our Journey</h2>
     <ul>
@@ -144,7 +188,7 @@
     </ul>
   </section>
 
-  <!-- Awards and Press Features -->
+  
   <section>
     <h2>Recognitions</h2>
     <p>We’re proud to be featured by:</p>

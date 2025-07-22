@@ -4,25 +4,68 @@
   <meta charset="UTF-8">
   <title>Travel Tips</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-image: url(Relax-at-Benguerra-Island.jpg);
       color: #333;
+      background-repeat: repeat;
     }
 
     header {
-      background: #0b5f78;
+      background-color: #0a3d62;
+      padding: 20px;
       color: white;
-      padding: 40px 20px;
-      text-align: center;
     }
 
-    h1 {
-      margin: 0;
+    header, section {
+      padding: 20px;
     }
 
+    nav {
+  background-color: #004466;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #333;
+    
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+  color: #ffcc00;
+    }
+
+     h1 {
+      text-align: left;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
     .tips-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -76,6 +119,20 @@
   </style>
 </head>
 <body>
+  
+  <!-- Navigation Bar -->
+   <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <header>
     <h1>Travel Tips</h1>
@@ -86,7 +143,7 @@
 
     <!-- Tip 1 -->
     <div class="tip-card">
-      <img src="https://via.placeholder.com/400x200" alt="Packing">
+      <img src="anete-lusina-GOZxrAlNIt4-unsplash-1440x958.webp" alt="Packing">
       <div class="tip-content">
         <h3>What to Pack for Africa</h3>
         <p>Discover the essential items you should bring for a safe, comfortable, and enjoyable journey through the continent.</p>
@@ -96,7 +153,7 @@
 
     <!-- Tip 2 -->
     <div class="tip-card">
-      <img src="https://via.placeholder.com/400x200" alt="Visa">
+      <img src="what-are-travel-cards-717x404.webp" alt="Visa">
       <div class="tip-content">
         <h3>How to Get Travel Visas</h3>
         <p>Learn the process for obtaining travel visas for African destinations and avoid common delays or issues.</p>
@@ -106,7 +163,7 @@
 
     <!-- Tip 3 -->
     <div class="tip-card">
-      <img src="https://via.placeholder.com/400x200" alt="Health">
+      <img src="1700814494_blog4.jpg" alt="Health">
       <div class="tip-content">
         <h3>Health Tips for Travelers</h3>
         <p>Stay healthy on your trip with these expert tips, including vaccinations, hydration, and food safety advice.</p>
@@ -116,7 +173,7 @@
 
     <!-- Tip 4 -->
     <div class="tip-card">
-      <img src="https://via.placeholder.com/400x200" alt="Budget">
+      <img src="istockphoto-579405036-612x612.jpg" alt="Budget">
       <div class="tip-content">
         <h3>Traveling on a Budget</h3>
         <p>Maximize your experience while keeping costs low. Perfect for students, families, and backpackers.</p>

@@ -4,25 +4,42 @@
   <meta charset="UTF-8">
   <title>Contact Us - Explore Kenya</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
-      background: #f9f9f9;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
       color: #333;
+      background-repeat: repeat;
+      background-image: url(Relax-at-Benguerra-Island.jpg);
     }
 
     header {
       background-color: #0a3d62;
       padding: 20px;
     }
+    header, section {
+      padding: 20px;
+    }
+
+    nav {
+  background-color: #004466;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
 
     nav ul {
       list-style: none;
       display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 0;
-      margin: 0;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #333;
     }
 
     nav ul li a {
@@ -30,18 +47,23 @@
       text-decoration: none;
       font-weight: bold;
     }
+    nav ul li a:hover {
+  color: #ffcc00;
+}
 
     h1 {
       text-align: center;
       margin-top: 30px;
+      color: #fff;
     }
 
     .container {
       max-width: 900px;
       margin: 30px auto;
       padding: 20px;
-      background: #fff;
+      background: transparent;
       border-radius: 8px;
+      color: #fff;
     }
 
     .form-group {
@@ -59,11 +81,14 @@
       padding: 10px;
       border-radius: 4px;
       border: 1px solid #ccc;
+      background-color: transparent;
     }
 
     textarea {
       resize: vertical;
       height: 100px;
+      background-color: transparent;
+      
     }
 
     button {
@@ -110,7 +135,7 @@
         <li><a href="destinations.html">Destinations</a></li>
         <li><a href="booking.html">Booking</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="travel-tips.html">Travel Tips</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -157,7 +182,7 @@
 
       <div class="info-box">
         <strong>Phone:</strong>
-        +254 712 345678
+        +254 7123456789
       </div>
 
       <div class="info-box">
